@@ -1,11 +1,22 @@
 (function () {
 
     let mountains = [
-        { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi" },
-        { name: "Monte Falterona", height: 1654, place: "Parco Foreste Casentinesi" },
-        { name: "Poggio Scali", height: 1520, place: "Parco Foreste Casentinesi" },
-        { name: "Pratomagno", height: 1592, place: "Parco Foreste Casentinesi" },
-        { name: "Monte Amiata", height: 1738, place: "Siena" }
+        {   fldName: "Tokyo",
+            fldLat: 35.6850,
+            fldLong: 139.7514,
+            fldCountry: "Japan",
+            fldAbbreviation: "JPN",
+            fldCapitalStatus: "primary",
+            fldPopulation: 35676000 },
+
+        {   fldName: "New York",
+            fldLat: 40.6943,
+            fldLong: -73.9249,
+            fldCountry: "United States",
+            fldAbbreviation: "USA",
+            fldCapitalStatus: "NA",
+            fldPopulation: 19354922 },
+
     ];
 
     let table = document.querySelector("table");
